@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f6fff8;
+  color: #054a29;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007f4d;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+nav {
+  background-color: #00a86b;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+}
+
+h2 {
+  color: #006644;
+  border-bottom: 2px solid #c0f2db;
+  padding-bottom: 0.5rem;
+}
+
+.card {
+  background-color: #e3fff2;
+  border: 1px solid #b3e6cc;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 128, 64, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #005733;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+.whatsapp-btn,
+.donate-btn {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.whatsapp-btn:hover,
+.donate-btn:hover {
+  background-color: #1ebe5d;
+}
+
+footer {
+  background-color: #006644;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
