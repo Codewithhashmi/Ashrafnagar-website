@@ -23,7 +23,8 @@
 
   <section id="about">
     <h2>🕌 About Our Village</h2>
-    <p>Ashraf Nagar is a peaceful and beautiful rural area located in Bhagalpur district of Bihar. Known for its unity, Islamic culture, and development potential, we aim to connect everyone and grow together.</p>
+    <p>Ashraf Nagar is a peaceful and beautiful rural area located in the Bhagalpur district of Bihar. Known for its strong sense of community, unity, and Islamic cultural values, the village is a symbol of harmony and mutual respect. With lush greenery, traditional homes, and a serene environment, Ashraf Nagar offers a blend of simplicity and aspiration. The people here are hardworking, friendly, and deeply rooted in their faith and traditions
+      We aim to connect everyone — from local residents to those who’ve moved away — through community events, digital platforms, and shared goals. Together, we dream of transforming Ashraf Nagar into a model village where tradition meets technology, and every citizen contributes to growth and well-being.</p>
   </section>
 
   <section id="development">
@@ -84,23 +85,67 @@
       <li><strong>Md Safdar Hashmi</strong> – 8292330628</li>
       <li><strong>Ali Ashgar</strong> – 9955062854</li>
       <li><strong>Md Naved Anjum</strong> – 8271314329</li>
+      <li><strong>Md Salehan</strong> –  7763831926</li>
+      <li><strong>Md Inteshar</strong> – 7250036931</li>
     </ul>
   </section>
 
   <section id="community">
     <h2>🤝 Join Our WhatsApp Group</h2>
     <p>Stay connected with the Ashraf Nagar community for updates and discussions.</p>
-    <a href="https://chat.whatsapp.com/J5TrG9y9Lb665HRy6xKfB4?mode=ac_t" class="whatsapp-btn">Join WhatsApp Group</a>
+    <a href="https://chat.whatsapp.com/BgF3NE8bS1eBbXfiTh6wkI?mode=ac_t" class="whatsapp-btn">Join WhatsApp Group</a>
   </section>
 
-  <section id="charity">
-    <h2>🕋 Charity for Masjid</h2>
-    <p>Contribute to the betterment and upkeep of our Masjid. Every donation counts in the eyes of Allah (SWT).</p>
-    <button class="donate-btn">Contribute to Masjid Chanda</button>
-  </section>
+ <section id="charity">
+  <h2>🕋 Charity for Masjid</h2>
+  <p>Contribute to the betterment and upkeep of our Masjid. Every donation counts in the eyes of Allah (SWT).</p>
+
+  <!-- UPI Donate Button -->
+  <a href="upi://pay?pa=8292330628@ptsbi&pn=Ashraf%20Nagar%20Masjid&cu=INR" class="donate-btn">
+    Contribute to Masjid Chanda
+  </a>
+
+  <!-- UPI QR Code (for all users) -->
+  <div style="margin-top: 20px;">
+    <p>📱 Or scan this QR Code using any UPI app:</p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=8292330628@ptsbi&pn=Ashraf%20Nagar%20Masjid&cu=INR"
+         alt="UPI QR Code" style="max-width: 200px;">
+  </div>
+
+  <!-- Fallback Message -->
+  <p style="margin-top: 10px; color: gray;">
+    If the button doesn't work, please scan the QR using PhonePe, Google Pay, Paytm, etc.
+  </p>
+</section>
+
+
+
 
   <footer>
-    <p>&copy; 2025 Ashraf Nagar. Designed for Community Welfare.</p>
+   <section id="query-form" class="form-section">
+  <div class="form-container">
+    <h2>Have a Query?</h2>
+    <p>✉ Reach out to us for any queries related to Masjid meetings.</p>
+    <form action="https://formspree.io/f/xkgzzzao" method="post">
+       <input type="hidden" name="_captcha" value="false">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="message"> Drop your Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Submit Query</button>
+    </form>
+  </div>
+</section>
+ 
+    <p>&copy; 2025 Developed by Er.Safdar Hashmi. Designed for Community Welfare and development.</p>
   </footer>
 </body>
 </html>
